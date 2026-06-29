@@ -16,7 +16,7 @@ df = yf.download("AAPL",start = "2020-01-01", end  = "2024-01-01")
 print(df.tail())
 
 
-# CREATE SIMPLE MOVING AVERAGES (SMA) #
+# CREATE SIMPLE MaOVING AVERAGES (SMA) #
 #######################################
 # creates new rows "SMA_SHORT" "SMA_LONG"
 # pandas methods
